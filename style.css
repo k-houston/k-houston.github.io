@@ -1,24 +1,24 @@
 * {
-    font-family: sans-serif;
+    font-family: Georgia, sans-serif;
     line-height: 1.618em;
     box-sizing: border-box;
+    
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply; 
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 html {
-    font-size: 16px;
-
+    font-size: 20px;
+    color: rgb(199, 199, 199);
     margin-top: 3em;
 }
 
 h1, h2, h3 {
-    color: #666;
+    color: rgb(243, 243, 243);
 }
 
 header,
@@ -28,6 +28,15 @@ footer {
     max-width: 800px;
 }
 
+h1 {
+    font-family:Georgia,serif;
+    color:whitesmoke;
+    font-size:30px;
+    line-height:1em;
+    }
+h3 {
+    color: black;
+}
 
 header {
     padding: 2em 0;
@@ -39,7 +48,7 @@ header h1 {
 
 header span {
     font-size: 1.5em;
-    color: #999;
+    color: rgb(187, 187, 187);
 }
 
 nav {
@@ -52,9 +61,11 @@ nav {
     flex-flow: row;
     justify-content: center;
 
-    height: 48px;
+    height: 65px;
 
-    background: #333;
+    background: rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size:x-large;
 }
 
 nav a {
@@ -83,6 +94,7 @@ section > p {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 1em;
+    color:rgb(0, 0, 0)
 }
 
 #projects article {
@@ -98,8 +110,9 @@ section > p {
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background: #666;
-    color: white;
+    background:black;
+    color: whitesmoke;
     padding: 1em 0;
     text-align: center;
+    border-radius: 7px;
 }
