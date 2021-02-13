@@ -107,6 +107,10 @@ section > p {
     border: 1px solid #333;
 }
 
+#skills p1 {
+    font-size: medium;
+}
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
