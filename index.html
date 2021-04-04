@@ -5,77 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyle Houston Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type= "text/css" href="style.css">
+        <!--Using-FontAwesome-->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
-    <nav>
-        <a href="#aboutMe">About Me</a>
-        <a href="#myProjects">My Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <header>
-        <h1>Kyle Houston</h1>
-        <span>Journey of a new software developer</span>
-    </header>
+    <section>
+    <!--nav bar-->
+        <nav>
+        <!--logo-->
+        <a class="logo"> Kyle. H Portfolio</a>
+        <!--menu-->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactMe">Contact</a></li>
+        </ul>
+        <!--bars---------------->
+        <div class="toggle"></div>
 
-    <main>
+        </nav>
+    <!--text-->
+        <div class="textContainer">
+            <p>Hello,</p>
+            <p>I'M KYLE HOUSTON</p>
+            <p>Journey of a Full Stack Software Developer</p>
+        </div>
+    <!--model-->
+        <img  src="/images/Headshot4.jpg" class="model" alt="model">
 
-        <section id="aboutMe">
-         <h2>About Me</h2>
-         <p>Hello, my name is Kyle Houston! I am currently enrolled in the full stack Spring C# cohort with We Can Code It. Software development has always been something I have been interested in on top of my natural love for technology. Technology has been apart of my life since I was a little kid with playing videos games and related to my current job with working at Best Buy. My future with software development is to work for a company as a full stack developer while learning to become a free lance software developer.</p>
-         <p>The world of software has always amazed me and to start the process is so exciting. I am very thankful to be in this bootcamp to start my knowledge and my career being a software developer.</p>
-        </section>
-        <section id="myProjects">
-            <h2>My Projects</h2>
-            <div id="projects">
-                <article>
-                    <h3>Virtual Pet</h3>
-                    <a href="https://github.com/k-houston/VirtualPet">
-                        <img src="/images/pet paw.png" alt="pixel paw print">
-                    </a>
-                    <p>Interactive pet game where user can create, name and take care of pet. </p>
-                </article>
-                <article>
-                    <h3>Virtual Game</h3>
-                    <a href="https://github.com/k-houston/VirtualGame">
-                        <img src="images/pixel knight.jpg" alt="pixel knight character">
-                    </a>
-                    <p>Interactive role play game where user can attack a monster and see if they will come out on top.</p>
-                </article>
-                <article>
-                    <h3>Grid Practice</h3>
-                    <a href="https://github.com/k-houston/CSSGrid">
-                        <img src="images/pixel grid 2.jpg" alt="colorful grid">
-                    </a>
-                    <p>In class assignment for CSS grid practice.</p>
-                </article>
-            </div>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <p1>Skills I will be proficient in:</p1>
+
+    </section>
+    <!--about section-->
+    <div id="about" class="aboutContainer">
+    <!--img-->
+        <img src="images/Headshot1.jpg">
+    <!--about text-->
+        <div class="aboutText">
+            <p>About Me</p>
+            <p>Full Stack Software Developer</p>
+            <p>Hello, my name is Kyle Houston and I am currently enrolled in the FullStack C# cohort at We Can Code It. While being a full-time student I am also working full-time as a customer service/sales advisor at Best Buy. Before getting into software development I was a student at the University of Akron for Bio/Pre-med. When studying Pre-Med at Akron I was working as a videography for the University of Akron to continue my passion for technology. Software is something that brings the best out of me due to it's nature of complex problem solving and advanced concepts to make the world a better place.</p>
+        </div>
+    </div>
+    <!--services-->
+    <div id="projects" class="projects">
+    <!--text>------------>
+     <div class="projectsText">
+            <p>Projects</p>
+            <p>Skills obtained:</p>
             <p>C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Here are some ways to contact me or get to know me better.</p>
-            <section id="icons">
-            
-                <a href="https://github.com/k-houston">
-                    <img src="images/main github.png" alt="github logo">
-                </a>
-            
-                <a href="https://www.linkedin.com/feed/">
-                    <img src="images/main linkedin.png" alt="linkedin logo">
-                </a>
+    </div>
+        <!--box-------------->
+    <div class="boxContainer">
+    <!--box 1-------------->
+        <div class="box-1">
+            <span>1</span>
+            <p class="heading">Virtual RPG</p>
+            <p class="details">Role Play Game style console application</p>
+            <button><a href="https://github.com/k-houston/VirtualGame">Project Repo</a></button>
+        </div>
+           
+    <!--box 2-------------->
+        <div class="box-2">
+            <span>2</span>
+            <p class="heading">Topping Review Site</p>
+            <p class="details">MVC style application</p>
+            <button><a href="https://github.com/k-houston/ToppingReviewSite">Project Repo</a></button>
+        </div>
+    <!--box 3-------------->
+        <div class="box-3">
+            <span>3</span>
+            <p class="heading">Donut Clicker</p>
+            <p class="details">JavaScript clicker game</p>
+            <button><a href="https://github.com/k-houston/Donut-Clicker ">Project Repo</a></button>
+        </div>
 
-            </section>
-        </section>
-
-    </main>
+    </div>
+    </div>
+<!--contact me-->
+    <div id="contactMe" class="contactMe">
+        <p>Want to get to know me better.</p>
+        <button><a href="mailto:kbh.csse@gmail.com">Contact Me</a></button>
+    </div>
+<!--footer-->
     <footer>
-        &copy; 2021 Kyle Houston Portfolio
+        <p>Find Your Passion</p>
+        <p>Life was never made to be easy or everyone would succeed. So go out and find your passion and make a difference in what makes you happy! </p>
+        <!--socials-->
+            <div class="socialIcons">
+
+                <a href="https://github.com/k-houston"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/kyle-houston/"><i class="fab fa-linkedin"></i></a>
+
+            </div>
+        <!--copyright-->
+        <p class="copyright">&copy; Kyle Houston 2021</p>
     </footer>
+    <!--attached social bar-->
+    <div class="socialIconsBar">
+
+        <a href="https://github.com/k-houston"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/kyle-houston/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <!--JQuery------->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        </script>
+
 </body>
 </html>
